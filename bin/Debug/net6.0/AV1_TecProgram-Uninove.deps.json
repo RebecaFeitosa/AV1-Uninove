@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AV1_TecProgram-Uninove/1.0.0": {
+        "runtime": {
+          "AV1_TecProgram-Uninove.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AV1_TecProgram-Uninove/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
