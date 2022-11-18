@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/AV1_TecProgram_Uninove.styles.css" asp-append-version="true" />
+    <script src="https://kit.fontawesome.com/71dede5b9a.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -33,14 +34,50 @@
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
+
+            <h3 class="titulo">Introdução</h3>
+            <p class="texto">
+                Em Outubro de 2022 iniciei minha jornada de estudos sobre a Salesforce.
+                Nesse período fiz dois projetos no trailhead playground, onde coloquei 
+                em prática muitos conceitos aprendidos nas trilhas que finalizei no trailhead.
+                O objetivo desse site é mostrar os meus projetos e incentivar outras pessoas a 
+                estudarem também. Meus projetos são básicos mas com o meu contínuo esforço e 
+                dedicação vou aprimorá-los e adicionar mais projetos de níveis superiores por aqui.
+            </p>
+
+            <h3 class="titulo">My Portfolio</h3>
+            <p class="texto">
+                Esse foi meu primeiro projeto. O objetivo dele é trazer informações sobre
+                a minha vida profissional, estudantil e um pouco da minha personalidade. 
+                Cada página e conteúdo desse site foram editados e criados pela plataforma trailhead 
+                playground da Salesforce, lá eu pude editar e ver o site tomando forma. 
+                Eu acredito que praticar é a melhor maneira de aprender. <br>
+                <a href="https://cunning-unicorn-457ex9-dev-ed.my.site.com/portfolio/s/">Aqui</a> está o site.
+            </p>
+
+            <h3 class="titulo">Chatbot Zaya</h3>
+            <p class="texto">
+                Nesse projeto o desafio era criar uma assitente digital funcional. Escolhi o tema da 
+                conversa e comecei a produção do bot. Tive muitas dúvidas durante o desenvolvimento 
+                desse trabalho, principalmente na parte do fluxo do bot, mas com muita insistência e 
+                pesquisa encontrei uma maneira de produzí-lo e o resultado ficou bem legal.
+                Também precisei criar um site simples para introduzir o bot. <br>
+                <a href="https://playful-shark-d9iyqw-dev-ed.trailblaze.my.site.com/s/">Aqui</a> está o site.
+            </p>
+
         </main>
     </div>
 
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2022 - AV1_TecProgram_Uninove - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <br>
+            <a href="https://github.com/RebecaFeitosa"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/rebeca-feitosa-11b609205/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://trailblazer.me/id/rebecafeitosa"><i class="fa-brands fa-salesforce"></i></a>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
